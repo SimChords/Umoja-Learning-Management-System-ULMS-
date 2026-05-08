@@ -30,7 +30,7 @@ namespace ULMSWinFormsApp.Forms
                     return;
                 }
 
-                // Intentional weak business-rule validation for testing purposes
+                // Fixed 
                 Enrollment enrollment = new Enrollment
                 {
                     StudentId = txtEnrollStudentId.Text,
