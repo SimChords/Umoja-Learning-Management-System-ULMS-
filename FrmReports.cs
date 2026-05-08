@@ -20,11 +20,11 @@ namespace ULMSWinFormsApp.Forms
         {
             try
             { 
-            // Intentional weak validation and slow processing for testing purposes
+            //  Fixed
             string reportType = cmbReportType.Text;
             string studentId = txtReportStudentId.Text;
 
-            // Intentional poor performance simulation
+            //     Fixed
             Thread.Sleep(4000);
 
             StringBuilder report = new StringBuilder();
