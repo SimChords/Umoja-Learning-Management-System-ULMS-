@@ -30,7 +30,7 @@ namespace ULMSWinFormsApp.Forms
         try
         { 
 
-            // Intentional faulty calculation
+            // Average calculation
             record.Average = (record.Subject1 + record.Subject2 + record.Subject3) / 3;
 
             if (record.Average >= 50)
